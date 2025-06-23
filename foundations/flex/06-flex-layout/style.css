@@ -7,6 +7,17 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+}
+
+
 img {
   width: 600px;
 }
@@ -23,4 +34,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
